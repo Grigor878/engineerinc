@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "dateJoined": "2023-01-01"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "dateJoined": "2023-01-15"
+    }
+  ],
+  "reports": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Report 1",
+      "content": "Lorem ipsum",
+      "dateCreated": "2023-02-05"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "title": "Report 2",
+      "content": "Dolor sit amet",
+      "dateCreated": "2023-02-10"
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "title": "Report 3",
+      "content": "Consectetur adipiscing elit",
+      "dateCreated": "2023-03-01"
+    }
+  ]
+}
