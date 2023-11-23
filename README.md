@@ -14,7 +14,8 @@ Node - v16.17.0 or higher
 
 ## Is Used
 
-Develoment - React(18.2.0)
+Frontend - React(18.2.0)
+Backend - json-server(^0.17.4)
 State managment - Redux(^8.1.3)
 Storage - Persist(^6.0.0)
 Middleware - Thunk(^2.4.2)
