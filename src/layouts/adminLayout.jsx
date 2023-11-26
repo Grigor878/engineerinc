@@ -12,12 +12,12 @@ const AdminLayout = () => {
     }
 
     return (
-        <>
+        <div className="admin_layout">
             <Aside />
             <Suspense fallback={<Loader />}>
                 <Outlet />
             </Suspense>
-        </>
+        </div>
     )
 }
 

@@ -5,8 +5,6 @@ import AdminLayout from "../layouts/adminLayout"
 
 const Users = lazy(() => import('../pages/users/users'))
 const SingleUser = lazy(() => import('../pages/users/single/singleUser'))
-const AddUser = lazy(() => import('../pages/users/add/addUser'))
-const EditUser = lazy(() => import('../pages/users/edit/editUser'))
 const Reports = lazy(() => import('../pages/reports/reports'))
 const Analytics = lazy(() => import('../pages/analytics/analytics'))
 
@@ -22,8 +20,6 @@ const View = () => {
                     >
                         <Route index path="users" element={<Users />} />
                         <Route path="users/:id" element={<SingleUser />} />
-                        <Route path="users/add" element={<AddUser />} />
-                        <Route path="users/edit/:id" element={<EditUser />} />
                         <Route path="reports" element={<Reports />} />
                         <Route path="analytics" element={<Analytics />} />
                     </Route>

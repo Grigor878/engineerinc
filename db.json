@@ -11,6 +11,114 @@
       "name": "Jane Smith",
       "email": "jane@example.com",
       "dateJoined": "2023-01-15"
+    },
+    {
+      "id": 3,
+      "name": "Bob Johnson",
+      "email": "bob@example.com",
+      "dateJoined": "2023-02-01"
+    },
+    {
+      "id": 4,
+      "name": "Alice Brown",
+      "email": "alice@example.com",
+      "dateJoined": "2023-02-15"
+    },
+    {
+      "id": 5,
+      "name": "Charlie Wilson",
+      "email": "charlie@example.com",
+      "dateJoined": "2023-03-01"
+    },
+    {
+      "id": 6,
+      "name": "Eva Davis",
+      "email": "eva@example.com",
+      "dateJoined": "2023-03-15"
+    },
+    {
+      "id": 7,
+      "name": "Frank Miller",
+      "email": "frank@example.com",
+      "dateJoined": "2023-04-01"
+    },
+    {
+      "id": 8,
+      "name": "Grace Taylor",
+      "email": "grace@example.com",
+      "dateJoined": "2023-04-15"
+    },
+    {
+      "id": 9,
+      "name": "Henry White",
+      "email": "henry@example.com",
+      "dateJoined": "2023-05-01"
+    },
+    {
+      "id": 10,
+      "name": "Ivy Clark",
+      "email": "ivy@example.com",
+      "dateJoined": "2023-05-15"
+    },
+    {
+      "id": 11,
+      "name": "Jack Brown",
+      "email": "jack@example.com",
+      "dateJoined": "2023-06-01"
+    },
+    {
+      "id": 12,
+      "name": "Kelly Johnson",
+      "email": "kelly@example.com",
+      "dateJoined": "2023-06-15"
+    },
+    {
+      "id": 13,
+      "name": "Liam Davis",
+      "email": "liam@example.com",
+      "dateJoined": "2023-07-01"
+    },
+    {
+      "id": 14,
+      "name": "Mia Smith",
+      "email": "mia@example.com",
+      "dateJoined": "2023-07-15"
+    },
+    {
+      "id": 15,
+      "name": "Noah Wilson",
+      "email": "noah@example.com",
+      "dateJoined": "2023-08-01"
+    },
+    {
+      "id": 16,
+      "name": "Olivia White",
+      "email": "olivia@example.com",
+      "dateJoined": "2023-08-15"
+    },
+    {
+      "id": 17,
+      "name": "Parker Miller",
+      "email": "parker@example.com",
+      "dateJoined": "2023-09-01"
+    },
+    {
+      "id": 18,
+      "name": "Quinn Taylor",
+      "email": "quinn@example.com",
+      "dateJoined": "2023-09-15"
+    },
+    {
+      "id": 19,
+      "name": "Ryan Clark",
+      "email": "ryan@example.com",
+      "dateJoined": "2023-10-01"
+    },
+    {
+      "id": 20,
+      "name": "Sofia Brown",
+      "email": "sofia@example.com",
+      "dateJoined": "2023-10-15"
     }
   ],
   "reports": [
@@ -34,6 +142,125 @@
       "title": "Report 3",
       "content": "Consectetur adipiscing elit",
       "dateCreated": "2023-03-01"
+    },
+    {
+      "id": 4,
+      "userId": 3,
+      "title": "Report 4",
+      "content": "Sed do eiusmod tempor incididunt",
+      "dateCreated": "2023-03-10"
+    },
+    {
+      "id": 5,
+      "userId": 3,
+      "title": "Report 5",
+      "content": "Ut labore et dolore magna aliqua",
+      "dateCreated": "2023-03-15"
+    },
+    {
+      "id": 6,
+      "userId": 4,
+      "title": "Report 6",
+      "content": "Ut enim ad minim veniam",
+      "dateCreated": "2023-04-01"
+    },
+    {
+      "id": 7,
+      "userId": 4,
+      "title": "Report 7",
+      "content": "Quis nostrud exercitation ullamco",
+      "dateCreated": "2023-04-05"
+    },
+    {
+      "id": 8,
+      "userId": 5,
+      "title": "Report 8",
+      "content": "Reprehenderit in voluptate velit",
+      "dateCreated": "2023-04-15"
+    },
+    {
+      "id": 9,
+      "userId": 5,
+      "title": "Report 9",
+      "content": "Esse cillum dolore eu fugiat",
+      "dateCreated": "2023-04-20"
+    },
+    {
+      "id": 10,
+      "userId": 6,
+      "title": "Report 10",
+      "content": "Nulla pariatur. Excepteur sint",
+      "dateCreated": "2023-05-01"
+    },
+    {
+      "id": 11,
+      "userId": 6,
+      "title": "Report 11",
+      "content": "Cupidatat non proident",
+      "dateCreated": "2023-05-05"
+    },
+    {
+      "id": 12,
+      "userId": 7,
+      "title": "Report 12",
+      "content": "Sunt in culpa qui officia deserunt",
+      "dateCreated": "2023-05-15"
+    },
+    {
+      "id": 13,
+      "userId": 7,
+      "title": "Report 13",
+      "content": "Mollit anim id est laborum",
+      "dateCreated": "2023-06-01"
+    },
+    {
+      "id": 14,
+      "userId": 8,
+      "title": "Report 14",
+      "content": "Ipsum dolor sit amet",
+      "dateCreated": "2023-06-15"
+    },
+    {
+      "id": 15,
+      "userId": 8,
+      "title": "Report 15",
+      "content": "Consectetur adipiscing elit",
+      "dateCreated": "2023-07-01"
+    },
+    {
+      "id": 16,
+      "userId": 9,
+      "title": "Report 16",
+      "content": "Sed do eiusmod tempor incididunt",
+      "dateCreated": "2023-07-15"
+    },
+    {
+      "id": 17,
+      "userId": 9,
+      "title": "Report 17",
+      "content": "Ut labore et dolore magna aliqua",
+      "dateCreated": "2023-08-01"
+    },
+    {
+      "id": 18,
+      "userId": 10,
+      "title": "Report 18",
+      "content": "Ut enim ad minim veniam",
+      "dateCreated": "2023-08-15"
+    },
+    {
+      "id": 19,
+      "userId": 10,
+      "title": "Report 19",
+      "content": "Quis nostrud exercitation ullamco",
+      "dateCreated": "2023-09-01"
+    },
+    {
+      "id": 20,
+      "userId": 11,
+      "title": "Report 20",
+      "content": "Reprehenderit in voluptate velit",
+      "dateCreated": "2023-09-15"
     }
   ]
 }

@@ -1,0 +1,30 @@
+@import "../../../variables";
+
+.singleUser {
+  &_top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  h2 {
+    text-align: center;
+    padding: 100px 0;
+  }
+
+  &_reports {
+    @include flex;
+    gap: 55px;
+  }
+  &_report {
+    @include flexCol;
+    gap: 25px;
+    border: 1px solid $blue;
+    border-radius: 4px;
+    padding: 33px;
+    background: $advancedBack;
+
+    h4 {
+      font-size: 20px;
+    }
+  }
+}

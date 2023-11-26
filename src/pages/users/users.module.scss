@@ -1,0 +1,19 @@
+@import "../../variables";
+
+.users {
+  @include flex;
+  justify-content: space-between;
+  gap: 35px;
+  flex-wrap: wrap;
+
+  &_card {
+    @include flexColCenter;
+    gap: 25px;
+    border: 1px solid $blue;
+    padding: 33px;
+    border-radius: 4px;
+    color: $text;
+    background: $advancedBack;
+    cursor: pointer;
+  }
+}

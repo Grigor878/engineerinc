@@ -1,0 +1,25 @@
+@import "../../variables";
+
+.aside {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background: $blue;
+  // width: 500px;
+  padding: 50px;
+  height: 100vh;
+
+  &_list {
+    @include flexCol;
+    gap: 25px;
+  }
+
+  &_link {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color: $white;
+    padding: 11px;
+    border-radius: 4px;
+  }
+}

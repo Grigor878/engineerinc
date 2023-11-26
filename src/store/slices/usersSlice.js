@@ -16,9 +16,9 @@ export const getUsers = createAsyncThunk("users", async () => {
   }
 });
 
-export const getSingleUser = createAsyncThunk("users/byId", async (id) => {
+export const getSingleUserData = createAsyncThunk("users/byId", async (id) => {
   try {
-    const { data } = await baseApi.get(`/users/${id}`);
+    const { data } = await baseApi.get(`/users/${id}?_embed=reports`);
     return data;
   } catch (err) {
     console.log(`Get Single User Error: ${err.message}`);
@@ -29,9 +29,9 @@ const userSlice = createSlice({
   name: "users",
   initialState,
   reducers: {
-    // clearUsers: (state) => {
-    //   state.users = [];
-    // },
+    clearUser: (state) => {
+      state.singleUser = null;
+    },
   },
   extraReducers: (builder) => {
     builder
@@ -42,11 +42,11 @@ const userSlice = createSlice({
         state.loading = false;
         state.users = action.payload;
       })
-      .addCase(getSingleUser.fulfilled, (state, action) => {
+      .addCase(getSingleUserData.fulfilled, (state, action) => {
         state.singleUser = action.payload;
       });
   },
 });
 
-// export const { clearUsers } = userSlice.actions;
+export const { clearUser } = userSlice.actions;
 export default userSlice.reducer;
